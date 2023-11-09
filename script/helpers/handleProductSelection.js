@@ -2,6 +2,7 @@ import { Cart, Products } from "./data.js";
 import { updateCart } from "./updateCart.js";
 
 export const handleProductSelection = (e) => {
+    
 
     //Producto seleccionado
     const productId = e.target.dataset.id;
@@ -12,10 +13,20 @@ export const handleProductSelection = (e) => {
         productSelected = Cart.find(product => product.id === productId);
         productSelected.quantity += 1;
     } else {
-        
         //Si no existe me lo traigo del array de productos
-        const productSelected = Products.find(product => product.id === productId);
-        Cart.push(productSelected);
+        fetch('/script/helpers/products.json')
+        .then(res => {
+            if(!res.ok) {
+                throw new Error('Hubo un problema al traer los datos');
+            }
+            return res.json();
+        })
+        .then(data => {
+            const productSelected = data.find(product => product.id === productId);
+            Cart.push(productSelected);
+            updateCart(Cart);
+
+        })
     }
 
     //Actualizo el carrito del local storage    
