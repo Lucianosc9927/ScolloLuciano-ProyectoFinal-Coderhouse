@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Cerveza Budweiser",
+      "thumbnail": "bebida-budweiser.webp",
+      "price": 700,
+      "id": "10",
+      "category": "bebida",
+      "quantity": 1
+    },
+    {
+      "name": "Cerveza Quilmes",
+      "thumbnail": "bebida-quilmes.webp",
+      "price": 600,
+      "id": "80",
+      "category": "bebida",
+      "quantity": 1
+    },
+    {
+      "name": "Yerba Playadito",
+      "thumbnail": "yerba-playadito.webp",
+      "price": 900,
+      "id": "180",
+      "category": "infusion",
+      "quantity": 1
+    },
+    {
+      "name": "Yerba Taragui",
+      "thumbnail": "yerba-taragui.webp",
+      "price": 1200,
+      "id": "90",
+      "category": "infusion",
+      "quantity": 1
+    },
+    {
+      "name": "Gaseosa Coca-Cola",
+      "thumbnail": "bebida-coca-cola.webp",
+      "price": 500,
+      "id": "11",
+      "category": "bebida",
+      "quantity": 1
+    },
+    {
+      "name": "Agua mineral Villavicencio",
+      "thumbnail": "bebida-villavicencio.webp",
+      "price": 300,
+      "id": "12",
+      "category": "bebida",
+      "quantity": 1
+    },
+    {
+      "name": "Jugo de Naranja Cepita",
+      "thumbnail": "bebida-cepita.webp",
+      "price": 400,
+      "id": "13",
+      "category": "bebida",
+      "quantity": 1
+    },
+    {
+      "name": "Sprite",
+      "thumbnail": "bebida-sprite.webp",
+      "price": 200,
+      "id": "14",
+      "category": "bebida",
+      "quantity": 1
+    },
+    {
+      "name": "Vino Malbec",
+      "thumbnail": "bebida-vino-malbec.webp",
+      "price": 1000,
+      "id": "15",
+      "category": "bebida",
+      "quantity": 1
+    },
+    {
+      "name": "Yerba mate Amanda",
+      "thumbnail": "yerba-mate-amanda.webp",
+      "price": 250,
+      "id": "18",
+      "category": "infusion",
+      "quantity": 1
+    },
+    {
+      "name": "Yerba mate La Merced",
+      "thumbnail": "yerba-mate-la-merced.webp",
+      "price": 300,
+      "id": "19",
+      "category": "infusion",
+      "quantity": 1
+    },
+    {
+      "name": "Té negro La Virginia",
+      "thumbnail": "te-negro-la-virginia.webp",
+      "price": 250,
+      "id": "20",
+      "category": "infusion",
+      "quantity": 1
+    },
+    {
+      "name": "Té verde Lipton",
+      "thumbnail": "te-verde-lipton.webp",
+      "price": 300,
+      "id": "21",
+      "category": "infusion",
+      "quantity": 1
+    },
+    {
+      "name": "Té rojo Rooibos",
+      "thumbnail": "te-rojo-rooibos.webp",
+      "price": 200,
+      "id": "22",
+      "category": "infusion",
+      "quantity": 1
+    }
+]
