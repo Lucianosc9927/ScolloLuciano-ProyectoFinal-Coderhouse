@@ -1,6 +1,5 @@
 import { Cart, Products } from "./data.js";
 import { updateCart } from "./updateCart.js";
-import { getProducts } from "./getProducts.js";
 
 export const handleProductSelection = (e) => {
 
@@ -13,7 +12,7 @@ export const handleProductSelection = (e) => {
         productSelected = Cart.find(product => product.id === productId);
         productSelected.quantity += 1;
     } else {
-        // const products = getProducts();
+        
         //Si no existe me lo traigo del array de productos
         const productSelected = Products.find(product => product.id === productId);
         Cart.push(productSelected);
