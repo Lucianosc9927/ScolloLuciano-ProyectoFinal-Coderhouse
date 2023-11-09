@@ -13,9 +13,9 @@ export const handleProductSelection = (e) => {
         productSelected = Cart.find(product => product.id === productId);
         productSelected.quantity += 1;
     } else {
-        const products = getProducts();
+        // const products = getProducts();
         //Si no existe me lo traigo del array de productos
-        const productSelected = products.find(product => product.id === productId);
+        const productSelected = Products.find(product => product.id === productId);
         Cart.push(productSelected);
     }
 
