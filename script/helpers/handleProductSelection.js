@@ -14,7 +14,7 @@ export const handleProductSelection = (e) => {
         productSelected.quantity += 1;
     } else {
         //Si no existe me lo traigo del array de productos
-        fetch('script/helpers/products.json')
+        fetch('/script/helpers/products.json')
         .then(res => {
             if(!res.ok) {
                 throw new Error('Hubo un problema al traer los datos');
