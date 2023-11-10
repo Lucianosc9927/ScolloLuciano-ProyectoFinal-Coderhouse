@@ -6,7 +6,7 @@ import { CategoryContainer } from "./components/CategoryContainer.js";
 export const App = () => {
 
 
-    fetch('script/helpers/products.json')
+    fetch('./script/helpers/products.json')
         .then(res => {
             if(!res.ok) {
                 throw new Error('Hubo un problema al traer los datos');
