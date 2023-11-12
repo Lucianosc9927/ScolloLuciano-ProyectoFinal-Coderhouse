@@ -110,5 +110,77 @@
       "id": "22",
       "category": "infusion",
       "quantity": 1
+    },
+    {
+      "name": "Lechuga",
+      "thumbnail": "lechuga.webp",
+      "price": 800,
+      "id": "23",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Tomate",
+      "thumbnail": "tomate.webp",
+      "price": 400,
+      "id": "24",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Zanahoria",
+      "thumbnail": "zanahoria.webp",
+      "price": 500,
+      "id": "25",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Cebolla",
+      "thumbnail": "cebolla.webp",
+      "price": 560,
+      "id": "26",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Papa",
+      "thumbnail": "papa.webp",
+      "price": 620,
+      "id": "27",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Pimiento",
+      "thumbnail": "pimiento.webp",
+      "price": 250,
+      "id": "28",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Brocoli",
+      "thumbnail": "brocoli.webp",
+      "price": 780,
+      "id": "29",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Pepino",
+      "thumbnail": "pepino.webp",
+      "price": 300,
+      "id": "30",
+      "category": "verduras",
+      "quantity": 1
+    },
+    {
+      "name": "Zapallo",
+      "thumbnail": "zapallo.webp",
+      "price": 450,
+      "id": "31",
+      "category": "verduras",
+      "quantity": 1
     }
 ]

@@ -1,4 +1,4 @@
-import { Cart, Products } from "./data.js";
+import { Cart } from "./data.js";
 import { updateCart } from "./updateCart.js";
 
 export const handleProductSelection = (e) => {

@@ -1,4 +1,3 @@
-import { Products } from "./data.js";
 import { Product } from "./../components/Product.js";
 
 export const handleCategorySelection = (e) => {
@@ -8,14 +7,21 @@ export const handleCategorySelection = (e) => {
 
     const categorySelected = e.currentTarget.dataset.id;
 
-    const filteredProducts = Products.filter(product => product.category === categorySelected || categorySelected === 'todos'); 
+    fetch('/script/helpers/products.json')
+        .then(res => {
+            if(!res.ok) {
+                throw new Error('Hubo un problema al traer los datos');
+            }
+            return res.json();
+        })
+        .then(data => {
+            const filteredProducts = data.filter(product => product.category === categorySelected || categorySelected === 'todos'); 
+            filteredProducts.forEach(product => {
+                productsSection.append(Product(product));
+            });
+        })
 
 
-    filteredProducts.forEach(product => {
-        productsSection.append(Product(product));
-    });
-
- 
     const categories = document.querySelectorAll('.category__item');
 
     //Le borramos la categoria seleccionada al que la tenia
